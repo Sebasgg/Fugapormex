@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fugapormexico">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icono_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FUGAPORMEXICO">
+        <activity android:name=".Usuario"></activity>
+        <activity android:name=".Registro" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Historico7" />
+        <activity android:name=".Historico6" />
+        <activity android:name=".Historico5" />
+        <activity android:name=".Historico4" />
+        <activity android:name=".Historico3" />
+        <activity android:name=".Historico2" />
+        <activity android:name=".Historico1" />
+        <activity android:name=".Estacionamientos" />
+        <activity android:name=".Bares" />
+        <activity android:name=".Bar1" />
+        <activity android:name=".Bar2" />
+        <activity android:name=".Bar3" />
+        <activity android:name=".Bar4" />
+        <activity android:name=".Bar5" />
+        <activity android:name=".Bar6" />
+        <activity android:name=".Hotel1" />
+        <activity android:name=".Hotel2" />
+        <activity android:name=".Hotel3" />
+        <activity android:name=".Hotel4" />
+        <activity android:name=".Hotel5" />
+        <activity android:name=".Hotel6" />
+        <activity android:name=".Maps1" />
+        <activity android:name=".Maps2" />
+        <activity android:name=".Maps3" />
+        <activity android:name=".Maps4" />
+        <activity
+            android:name=".Maps5"
+            android:label="activity_maps5" />
+        <activity android:name=".Estacionamiento1" />
+        <activity android:name=".Estacionamiento2" />
+        <activity android:name=".Estacionamiento3" />
+        <activity android:name=".Estacionamiento4" />
+        <activity android:name=".Estacionamiento5" />
+        <activity android:name=".Estacionamiento6" />
+        <activity android:name=".Hoteles" />
+        <activity android:name=".Restaurantes" />
+        <activity android:name=".Historico9" />
+        <activity android:name=".TresActivity" />
+        <activity android:name=".DosActivity" />
+        <activity android:name=".UnoActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FUGAPORMEXICO.NoActionBar"></activity>
+    </application>
+
+</manifest>

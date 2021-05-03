@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FUGA POR MEXICO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">USER@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opciones</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Promociones</string>
+    <string name="menu_slideshow">Favoritos</string>
+    <string name="menu_viajes">Mis Viajes</string>
+    //login y registro
+    <string name="texto1">Contraseña</string>
+    <string name="texto2">Correo</string>
+    <string name="texto3">Entrar</string>
+    <string name="texto4">Registrarse</string>
+    <string name="texto5">Registro de Usuario</string>
+    <string name="texto6">Usuario</string>
+    <string name="texto7">¿Ya tiene una cuenta?</string>
+    //Inicio e Histósicos y turísticos
+    <string name="texto8">¿Qué desea buscar?</string>
+    <string name="texto9">Lugares Históricos</string>
+    <string name="texto10">Lugares Turísticos</string>
+    <string name="texto11">Jardín de San Marcos</string>
+    <string name="texto12">Plaza de Toros</string>
+    <string name="texto13">Feria de San Marcos</string>
+    <string name="texto14">Centro Histórico de Aguascalientes</string>
+    <string name="texto15">Plaza de Armas</string>
+    <string name="texto16">Catedral de Aguascalientes</string>
+    <string name="texto17">Cerro del Muerto</string>
+    <string name="texto18">Templo de San Antonio</string>
+    <string name="texto19">Isla San Marcos</string>
+    <string name="texto20">Museo de Aguascalientes</string>
+    <string name="texto21">Restaurantes</string>
+    <string name="texto22">Hoteles</string>
+    <string name="texto23">Bares</string>
+    <string name="texto24">Estacionamientos</string>
+    <string name="texto25">Cerrar Sesión</string>
+    <string name="texto26">Eliminar Cuenta</string>
+
+    //
+
+
+</resources>
