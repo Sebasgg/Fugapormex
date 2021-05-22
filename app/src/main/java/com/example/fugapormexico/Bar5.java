@@ -18,7 +18,7 @@ public class Bar5 extends AppCompatActivity {
         mapa.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent( Bar5.this, Maps5.class );
+                Intent intent =new Intent( Bar5.this, MapsActivity5.class );
                 startActivity( intent );
             }
         } );

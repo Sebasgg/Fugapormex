@@ -9,6 +9,9 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -37,8 +40,20 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".MapsActivity5"
+            android:label="@string/title_activity_maps5"></activity>
+        <activity
+            android:name=".MapsActivity4"
+            android:label="@string/title_activity_maps4" />
+        <activity
+            android:name=".MapsActivity3"
+            android:label="@string/title_activity_maps3" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity
             android:name=".Mapa1"
-            android:label="@string/title_activity_mapa1"></activity>
+            android:label="@string/title_activity_mapa1" />
         <activity android:name=".Usuario" />
         <activity android:name=".Registro" />
         <activity android:name=".Inicio" />
@@ -70,13 +85,6 @@
         <activity android:name=".Hotel4" />
         <activity android:name=".Hotel5" />
         <activity android:name=".Hotel6" />
-        <activity android:name=".Maps1" />
-        <activity android:name=".Maps2" />
-        <activity android:name=".Maps3" />
-        <activity android:name=".Maps4" />
-        <activity
-            android:name=".Maps5"
-            android:label="activity_maps5" />
         <activity android:name=".Estacionamiento1" />
         <activity android:name=".Estacionamiento2" />
         <activity android:name=".Estacionamiento3" />

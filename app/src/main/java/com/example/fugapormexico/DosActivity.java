@@ -7,16 +7,29 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.Toast;
 
 public class DosActivity extends AppCompatActivity {
     GridLayout mainGriop;
 
+    //Boton regresar, implementar en todas las pantallas***
+    Button regresar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dos2);
+
+        regresar=(Button)findViewById(R.id.regresar);
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent( DosActivity.this,MainActivity.class);
+                startActivity(o );
+            }
+        });
 
         mainGriop = (GridLayout) findViewById(R.id.mainGriop);
 

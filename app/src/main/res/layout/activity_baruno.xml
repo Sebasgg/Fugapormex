@@ -88,6 +88,27 @@
         app:srcCompat="@drawable/bar6"
         tools:ignore="MissingConstraints" />
 
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/et_phone_no"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="#746354"
+        android:text="Llamar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp" />
+
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"

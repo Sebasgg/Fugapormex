@@ -54,6 +54,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.1.1'
     //firebase
     implementation platform('com.google.firebase:firebase-bom:27.1.0')
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
     implementation 'com.google.firebase:firebase-auth:20.0.4'
     implementation 'com.google.firebase:firebase-analytics'
     //hdodenhof para imagen circular
