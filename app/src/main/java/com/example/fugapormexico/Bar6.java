@@ -20,15 +20,13 @@ public class Bar6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_barseis);
+        super.onCreate( savedInstanceState );
+        setContentView( R.layout.activity_barseis);
 
         btnScanner = findViewById(R.id.btnScanner);
         tvBarCode = findViewById(R.id.tvBarCode);
-
         btnScanner.setOnClickListener(mOnClickListener);
     }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -37,10 +35,9 @@ public class Bar6 extends AppCompatActivity {
             if (result.getContents() != null){
                 tvBarCode.setText("El código de barras es:\n" + result.getContents());
             }else{
-                tvBarCode.setText("Error al escanear el código de barras");
+                tvBarCode.setText("Error al escanear ");
             }
     }
-
     private View.OnClickListener mOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {

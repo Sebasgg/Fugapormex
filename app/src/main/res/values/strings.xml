@@ -38,8 +38,7 @@
     <string name="texto24">Estacionamientos</string>
     <string name="texto25">Cerrar Sesión</string>
     <string name="texto26">Eliminar Cuenta</string>
-
+    <string name="title_activity_mapa1">Map</string>
     //
-
 
 </resources>

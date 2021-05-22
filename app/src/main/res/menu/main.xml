@@ -8,7 +8,7 @@
         app:showAsAction="never" />
 
     <item android:id="@+id/usuarios"
-        android:title="Usuario"
+        android:title="@string/nav_header_title"
         android:icon="@android:drawable/ic_menu_preferences"
         android:orderInCategory="5"
         app:showAsAction="never"/>
