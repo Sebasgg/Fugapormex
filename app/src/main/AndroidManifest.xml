@@ -51,9 +51,6 @@
         <activity
             android:name=".MapsActivity2"
             android:label="@string/title_activity_maps2" />
-        <activity
-            android:name=".Mapa1"
-            android:label="@string/title_activity_mapa1" />
         <activity android:name=".Usuario" />
         <activity android:name=".Registro" />
         <activity android:name=".Inicio" />

@@ -45,6 +45,8 @@ dependencies {
     implementation 'com.journeyapps:zxing-android-embedded:3.2.0'
     implementation 'com.google.zxing:core:3.3.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    //
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
@@ -56,6 +58,9 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.0.1')
     implementation 'com.google.firebase:firebase-auth:20.0.4'
     implementation 'com.google.firebase:firebase-analytics'
+
+
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
     //hdodenhof para imagen circular
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //Glide

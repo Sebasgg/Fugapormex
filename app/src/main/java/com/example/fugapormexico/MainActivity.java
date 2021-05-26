@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (finalI == 0) {
 
-                        Intent intent = new Intent(MainActivity.this, UnoActivity.class);
+                        Intent intent = new Intent(MainActivity.this, Historico1.class);
                         startActivity(intent);
                     } else if (finalI == 1) {
 
