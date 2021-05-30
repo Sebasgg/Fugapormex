@@ -22,4 +22,14 @@
         android:name="com.example.fugapormexico.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/fotos"
+        android:name="com.example.fugapormexico.Fotos"
+        android:label="activity_fotos"
+        tools:layout="@layout/activity_fotos" />
+    <activity
+        android:id="@+id/promociones"
+        android:name="com.example.fugapormexico.Promociones"
+        android:label="activity_promociones"
+        tools:layout="@layout/activity_promociones" />
 </navigation>

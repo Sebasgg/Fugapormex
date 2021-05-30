@@ -13,7 +13,7 @@ public class Bar3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_bartres );
-        mapa= (Button)findViewById( R.id.Mapa3 );
+        mapa= (Button)findViewById( R.id.Mapa );
         mapa.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {

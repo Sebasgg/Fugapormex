@@ -4,104 +4,207 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Bar1">
+    tools:context=".Bar5">
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#8092F8"
+        android:text="Regresar"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+
 
     <TextView
         android:id="@+id/textGrid"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="401dp"
+        android:layout_height="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="11dp"
-        android:text="         Cocktall"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="33dp"
+        android:textStyle="bold"
+        android:text="       Bar Sin Nombre"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="196dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp">
+
+        <LinearLayout
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="271dp"
+                android:layout_height="match_parent"
+                android:text="bar uno"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="Telefono:"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="255dp"
+                android:layout_height="match_parent"
+                android:text="4491568752"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="Horario:"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:text="Martes/Domingo"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bar2">
+
+    </ImageView>
+
+
     <Button
         android:id="@+id/Mapa"
-        android:layout_width="352dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="39dp"
-        android:text="como llegar "
-        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="112dp"
+        android:text="Ir"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText7"
         tools:ignore="InvalidId,MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="35dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name:Cocktall"
-        app:layout_constraintBottom_toTopOf="@+id/editText6"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+    <Button
+        android:id="@+id/Web"
+        android:layout_width="105dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="108dp"
+        android:text="Web"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textGrid"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="InvalidId,MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Telefono:92627444"
-        app:layout_constraintBottom_toTopOf="@+id/editText7"
-        app:layout_constraintEnd_toEndOf="@+id/editText7"
-        app:layout_constraintStart_toStartOf="@+id/Mapa"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginBottom="24dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Horatio:Martes/Domingo"
-        app:layout_constraintBottom_toTopOf="@+id/Mapa"
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginBottom="108dp"
+        android:text="Llamar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText6"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="InvalidId,MissingConstraints" />
 
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="159dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Mapa"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="130dp"
-        android:layout_height="156dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="376dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editText5"
-        app:layout_constraintTop_toBottomOf="@+id/textGrid"
-        app:srcCompat="@drawable/bar2"
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/et_phone_no"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fotos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="705dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fcinco" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/funo" />
+
+            <ImageView
+                android:layout_width="709dp"
+                android:layout_height="267dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fdos" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ftres" />
+
+            <ImageView
+                android:layout_width="709dp"
+                android:layout_height="235dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fcuatro" />
+
+
+            <ImageView
+                android:layout_width="754dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fsesis" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fsiete" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+
+                android:layout_height="291dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/focho" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

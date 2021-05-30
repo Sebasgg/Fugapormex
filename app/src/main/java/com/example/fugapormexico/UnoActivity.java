@@ -65,54 +65,7 @@ public class UnoActivity extends AppCompatActivity {
                         Intent intent = new Intent( UnoActivity.this,Historico1.class);
                         startActivity( intent );
                     }
-                    else
-                    if ( finalI ==  1 )
-                    {
 
-                        Intent intent = new Intent( UnoActivity.this,Historico2.class);
-                        startActivity( intent );
-                    }
-                    else
-                    if ( finalI ==  2)
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this,Historico3.class);
-                        startActivity( intent );
-                    }
-                    else
-                    if ( finalI ==  3)
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this,Historico4.class);
-                        startActivity( intent );
-                    }
-                    else
-                    if ( finalI ==  4 )
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this,Historico5.class);
-                        startActivity( intent );
-                    }else
-                    if ( finalI ==  5 )
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this,Historico6.class);
-                        startActivity( intent );
-                    }
-                    else
-                    if ( finalI ==  6)
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this,Historico7.class);
-                        startActivity( intent );
-                    }
-                    else
-                    if ( finalI ==  7 )
-                    {
-
-                        Intent intent = new Intent( UnoActivity.this, Historico9.class);
-                        startActivity( intent );
-                    }
 
 
 

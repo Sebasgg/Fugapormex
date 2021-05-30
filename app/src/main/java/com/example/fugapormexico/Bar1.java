@@ -17,10 +17,37 @@ import android.widget.Toast;
 
 public class Bar1 extends AppCompatActivity {
     private Button mapa;
+    Button regresar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_baruno );
+        regresar=(Button)findViewById(R.id.regresar);
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent( Bar1.this,Bares.class);
+                startActivity(o );
+
+            }
+        });
+
+        Button mDialButton = (Button) findViewById(R.id.btn_dial);
+        final EditText mPhoneNoEt = (EditText) findViewById(R.id.et_phone_no);
+
+        mDialButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                /// cabiar numero
+                String phoneNo = "4492801845";
+                if(!TextUtils.isEmpty(phoneNo)) {
+                    String dial = "tel:" + phoneNo;
+                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                }else {
+                    Toast.makeText(Bar1.this, "Enter a phone number", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         mapa= (Button)findViewById( R.id.Mapa );
         mapa.setOnClickListener( new View.OnClickListener() {
             @Override
