@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Bar2">
+
     <Button
         android:id="@+id/regresar"
         android:layout_width="wrap_content"
@@ -17,7 +18,6 @@
     </Button>
 
 
-
     <TextView
         android:id="@+id/textGrid"
         android:layout_width="401dp"
@@ -27,7 +27,7 @@
         android:layout_marginTop="56dp"
         android:layout_marginBottom="33dp"
         android:textStyle="bold"
-        android:text="       Bar Sin Nombre"
+        android:text=" Cervecería La Principal"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
@@ -43,7 +43,8 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp">
+        tools:layout_editor_absoluteX="11dp"
+        >
 
         <LinearLayout
             android:layout_width="382dp"
@@ -55,7 +56,7 @@
                 android:id="@+id/editText5"
                 android:layout_width="106dp"
                 android:layout_height="match_parent"
-                android:text="Name:"
+                android:text="Nombre:"
                 android:textStyle="bold"
                 android:textSize="25dp" />
 
@@ -63,7 +64,7 @@
             <TextView
                 android:layout_width="271dp"
                 android:layout_height="match_parent"
-                android:text="bar uno"
+                android:text="La Principal"
                 android:textSize="25dp" />
 
 
@@ -76,7 +77,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="382dp"
             android:layout_height="wrap_content"
             android:background="#E9F9FB"
             android:orientation="horizontal">
@@ -106,7 +107,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="382dp"
             android:layout_height="wrap_content"
             android:background="#E9F9FB"
             android:orientation="horizontal">
@@ -123,7 +124,7 @@
             <TextView
                 android:layout_width="242dp"
                 android:layout_height="match_parent"
-                android:text="Martes/Domingo"
+                android:text="Todos los días"
                 android:textSize="25dp" />
 
 
@@ -148,15 +149,15 @@
         android:layout_marginBottom="396dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/bar5">
+        app:srcCompat="@drawable/barr2">
 
     </ImageView>
 
 
     <Button
         android:id="@+id/Mapa"
-        android:layout_width="105dp"
-        android:layout_height="50dp"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="112dp"
         android:text="Ir"
@@ -165,22 +166,24 @@
         tools:ignore="InvalidId,MissingConstraints" />
 
     <Button
-        android:id="@+id/Web"
-        android:layout_width="105dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="140dp"
+        android:id="@+id/promociones"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="120dp"
         android:layout_marginBottom="108dp"
-        android:text="Web"
+        android:textSize="13dp"
+        android:text="Promociones "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />
 
     <Button
         android:id="@+id/btn_dial"
-        android:layout_width="131dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginBottom="108dp"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="112dp"
+        android:textSize="10dp"
         android:text="Llamar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -80,12 +80,6 @@
         <activity android:name=".Hotel4" />
         <activity android:name=".Hotel5" />
         <activity android:name=".Hotel6" />
-        <activity android:name=".Estacionamiento1" />
-        <activity android:name=".Estacionamiento2" />
-        <activity android:name=".Estacionamiento3" />
-        <activity android:name=".Estacionamiento4" />
-        <activity android:name=".Estacionamiento5" />
-        <activity android:name=".Estacionamiento6" />
         <activity android:name=".Hoteles" />
         <activity android:name=".Restaurantes" />
         <activity android:name=".TresActivity" />

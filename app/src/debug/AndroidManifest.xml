@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -8,8 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application>
-        <activity android:name="com.example.fugapormexico.Promociones"></activity>
-        <activity android:name="com.example.fugapormexico.Fotos" />
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -22,6 +22,22 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name="com.example.fugapormexico.Estacionamiento4"
+            android:label="@string/title_activity_estacionamiento4"></activity>
+        <activity
+            android:name="com.example.fugapormexico.Estacionamiento3"
+            android:label="@string/title_activity_estacionamiento3" />
+        <activity
+            android:name="com.example.fugapormexico.Estacionamiento2"
+            android:label="@string/title_activity_estacionamiento2" />
+        <activity
+            android:name="com.example.fugapormexico.Estacionamiento1"
+            android:label="@string/title_activity_estacionamiento1" />
+        <activity android:name="com.example.fugapormexico.Restaurantes2" />
+        <activity android:name="com.example.fugapormexico.PaginaRes1" />
+        <activity android:name="com.example.fugapormexico.Promociones" />
+        <activity android:name="com.example.fugapormexico.Fotos" />
         <activity
             android:name="com.example.fugapormexico.MapsActivity1"
             android:label="@string/title_activity_maps1" />

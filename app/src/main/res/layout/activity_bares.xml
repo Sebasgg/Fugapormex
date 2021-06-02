@@ -117,12 +117,12 @@
                         android:layout_width="206dp"
                         android:layout_height="111dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/bar5" />
+                        android:src="@drawable/barr2" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="44dp"
-                        android:text="Bar OriginalMusic"
+                        android:text="La Principal"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18dp"
@@ -154,12 +154,12 @@
                         android:layout_width="148dp"
                         android:layout_height="117dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/bar4" />
+                        android:src="@drawable/barr3" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bar El del Bar"
+                        android:text="San Pancho"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18sp"
@@ -192,12 +192,12 @@
                         android:layout_width="148dp"
                         android:layout_height="112dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/bar3" />
+                        android:src="@drawable/barr4" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bar The Retro"
+                        android:text="La México"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18sp"
@@ -233,12 +233,12 @@
                         android:layout_width="187dp"
                         android:layout_height="112dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/bar2" />
+                        android:src="@drawable/barr5" />
 
                     <TextView
                         android:layout_width="172dp"
                         android:layout_height="48dp"
-                        android:text="Bar CockTall"
+                        android:text="Barezzito"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18sp"

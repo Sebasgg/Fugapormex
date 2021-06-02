@@ -17,7 +17,8 @@ import android.widget.Toast;
 
 public class Bar1 extends AppCompatActivity {
     private Button mapa;
-    Button regresar;
+    Button regresar, promociones;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -32,14 +33,24 @@ public class Bar1 extends AppCompatActivity {
             }
         });
 
+        // boton de la  lugar
+        promociones=(Button)findViewById(R.id.promociones);
+        promociones .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent( Bar1.this,Promociones.class);
+                startActivity(o );
+            }
+        });
+
         Button mDialButton = (Button) findViewById(R.id.btn_dial);
         final EditText mPhoneNoEt = (EditText) findViewById(R.id.et_phone_no);
 
         mDialButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /// cabiar numero
-                String phoneNo = "4492801845";
+                /// cambiar número
+                String phoneNo = "4491234567";
                 if(!TextUtils.isEmpty(phoneNo)) {
                     String dial = "tel:" + phoneNo;
                     startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));

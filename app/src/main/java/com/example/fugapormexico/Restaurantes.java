@@ -69,7 +69,7 @@ public class Restaurantes extends AppCompatActivity {
                     if ( finalI ==  1 )
                     {
 
-                        Intent intent = new Intent(Restaurantes.this, Restaurante1.class);
+                        Intent intent = new Intent(Restaurantes.this, Restaurantes2.class);
                         startActivity( intent );
                     }
                     else

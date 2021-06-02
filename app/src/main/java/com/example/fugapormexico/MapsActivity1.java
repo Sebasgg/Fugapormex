@@ -50,7 +50,7 @@ public class MapsActivity1 extends FragmentActivity implements OnMapReadyCallbac
 
         mMap = googleMap;
 //--------------------------------------------------------------
-        LatLng sydney = new LatLng(21.871185291470297, -102.2546420534595);
+        LatLng sydney = new LatLng(21.87768662450309, -102.26787263801513);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Bar La Bola").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 //------------------------------------------------------------

@@ -87,22 +87,6 @@ public class Estacionamientos extends AppCompatActivity {
                         Intent intent = new Intent(Estacionamientos.this, Estacionamiento4.class);
                         startActivity( intent );
                     }
-                    else
-                    if ( finalI ==  4 )
-                    {
-
-                        Intent intent = new Intent(Estacionamientos.this, Estacionamiento5.class);
-                        startActivity( intent );
-                    }else
-                    if ( finalI ==  5 )
-                    {
-
-                        Intent intent = new Intent(Estacionamientos.this, Estacionamiento6.class);
-                        startActivity( intent );
-                    }
-
-
-
                 }
             });
 
