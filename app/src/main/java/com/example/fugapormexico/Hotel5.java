@@ -12,6 +12,6 @@ public class Hotel5 extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_hotelcinco );
         WebView myWebView = (WebView) findViewById(R.id.webview5);
-        myWebView.loadUrl("https://www.paladimalagoamar.com/es/");
+        myWebView.loadUrl("https://www.guestreservations.com/holiday-inn-suites-aguascalientes/booking?gclid=EAIaIQobChMIzsWuo4zw8AIV8R6tBh2Zwwc1EAAYASAAEgJSCfD_BwE");
     }
 }

@@ -13,6 +13,6 @@ public class Hotel1 extends AppCompatActivity {
         setContentView( R.layout.activity_hoteluno );
 
         WebView myWebView = (WebView) findViewById(R.id.webview1);
-        myWebView.loadUrl("https://www.betulum.com/?gclid=EAIaIQobChMI1ZOfuq6-6QIVR__jBx0HkwAbEAAYASAAEgLDHPD_BwE");
+        myWebView.loadUrl("https://www.aranzazu.com.mx/aranzazuplazakristal");
     }
 }

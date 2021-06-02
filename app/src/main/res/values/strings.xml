@@ -2,8 +2,8 @@
     <string name="app_name">FUGA POR MEXICO</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Usuario</string>
-    <string name="nav_header_subtitle">USER@gmail.com</string>
+    <string name="nav_header_title">Sebastian Gallegos</string>
+    <string name="nav_header_subtitle">sebas.rg07@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Opciones</string>
     <string name="menu_home">Inicio</string>
@@ -19,7 +19,7 @@
     <string name="texto6">Usuario</string>
     <string name="texto7">¿Ya tiene una cuenta?</string>
     //Inicio e Histósicos y turísticos
-    <string name="texto8">¿Qué desea buscar?</string>
+    <string name="texto8">Descubra más de Aguascalientes</string>
     <string name="texto9">Eventos Aguascalientes</string>
     <string name="texto10">Lugares Turísticos</string>
     <string name="texto11">Jardín de San Marcos</string>

@@ -13,6 +13,6 @@ public class Hotel6 extends AppCompatActivity {
         setContentView( R.layout.activity_hotelseis );
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("https://www.tripadvisor.com.mx/Hotel_Review-g659634-d573842-Reviews-Club_Drago_Park_Hotel-Costa_Calma_Pajara_Jandia_Peninsula_Fuerteventura_Canary_Islands.html");
+        myWebView.loadUrl("https://www.hotelfranciaaguascalientes.com/es/");
     }
 }

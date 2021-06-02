@@ -11,6 +11,6 @@ public class Hotel3 extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_hoteltres );
         WebView myWebView = (WebView) findViewById(R.id.webview3);
-        myWebView.loadUrl("https://www.booking.com/hotel/mx/san-marcos-aguascalientes1.es.html");
+        myWebView.loadUrl("https://www.hyatt.com/en-US/hotel/mexico/hyatt-place-aguascalientes-bonaterra/aguza");
     }
 }

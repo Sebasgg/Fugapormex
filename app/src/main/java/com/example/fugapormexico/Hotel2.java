@@ -13,6 +13,6 @@ public class Hotel2 extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_hoteldos );
         WebView myWebView = (WebView) findViewById(R.id.webview2);
-        myWebView.loadUrl("https://nesttulum.com/es/");
+        myWebView.loadUrl("https://www.fiestamericana.com/es/home");
     }
 }

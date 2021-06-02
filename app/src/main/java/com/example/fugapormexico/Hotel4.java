@@ -12,6 +12,6 @@ public class Hotel4 extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_hotelcuatro );
         WebView myWebView = (WebView) findViewById(R.id.webview4);
-        myWebView.loadUrl("https://www.krystal-hotels.com.mx/");
+        myWebView.loadUrl("https://www.marriott.com/hotels/travel/agumc-aguascalientes-marriott-hotel/");
     }
 }
