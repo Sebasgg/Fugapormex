@@ -7,8 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Opciones</string>
     <string name="menu_home">Inicio</string>
-    <string name="menu_gallery">Promociones</string>
-    <string name="menu_slideshow">Favoritos</string>
+    <string name="menu_gallery">Favoritos</string>
+    <string name="menu_slideshow">Promociones</string>
     <string name="menu_viajes">Mis Viajes</string>
     //login y registro
     <string name="texto1">Contraseña</string>
@@ -20,7 +20,7 @@
     <string name="texto7">¿Ya tiene una cuenta?</string>
     //Inicio e Histósicos y turísticos
     <string name="texto8">¿Qué desea buscar?</string>
-    <string name="texto9">Lugares Históricos</string>
+    <string name="texto9">Eventos Aguascalientes</string>
     <string name="texto10">Lugares Turísticos</string>
     <string name="texto11">Jardín de San Marcos</string>
     <string name="texto12">Plaza de Toros</string>

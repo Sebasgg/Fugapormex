@@ -15,20 +15,21 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Restaurante5 extends AppCompatActivity {
+public class Restaurantes2 extends AppCompatActivity {
     private Button mapa;
     Button regresar, Web1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_restaurante5 );
+        setContentView( R.layout.activity_restaurantes2 );
         regresar=(Button)findViewById(R.id.regresar);
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent( Restaurante5.this,Restaurantes.class);
+                Intent o = new Intent( Restaurantes2.this,Restaurantes.class);
                 startActivity(o );
+
             }
         });
 
@@ -37,7 +38,7 @@ public class Restaurante5 extends AppCompatActivity {
         Web1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent( Restaurante5.this,PaginaRes5.class);
+                Intent o = new Intent( Restaurantes2.this,PaginaRes2.class);
                 startActivity(o );
             }
         });
@@ -54,7 +55,7 @@ public class Restaurante5 extends AppCompatActivity {
                     String dial = "tel:" + phoneNo;
                     startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
                 }else {
-                    Toast.makeText(Restaurante5.this, "Enter a phone number", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Restaurantes2.this, "Enter a phone number", Toast.LENGTH_SHORT).show();
                 }
             }
         });

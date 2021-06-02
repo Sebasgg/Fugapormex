@@ -4,6 +4,235 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blancoo"
     tools:context=".Restaurante6">
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Regresar"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+
+    <HorizontalScrollView
+        android:layout_width="392dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textGrid"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restlogo6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restdesay6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restcomida6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restlugar6" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/textGrid"
+        android:layout_width="364dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="33dp"
+        android:text="       Las Gaoneras"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="400dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="Telefono:"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="255dp"
+                android:layout_height="match_parent"
+                android:text="4491532717"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="Horario:"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:text="8:00am / 11:00pm"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="Dias :"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:text="Lunes/Domingo"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Web1"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="60dp"
+        android:text="Web"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="60dp"
+        android:text="Llamar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/et_phone_no"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

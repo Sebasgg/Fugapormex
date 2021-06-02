@@ -10,11 +10,11 @@
             android:title="@string/menu_viajes" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@android:drawable/ic_dialog_dialer"
+            android:icon="@android:drawable/btn_star_big_on"
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/promociones"
-            android:icon="@android:drawable/btn_star_big_on"
+            android:icon="@android:drawable/ic_dialog_dialer"
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/fotos"

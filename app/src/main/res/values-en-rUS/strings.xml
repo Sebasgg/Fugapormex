@@ -8,8 +8,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Promotions</string>
-    <string name="menu_slideshow">Favorites</string>
+    <string name="menu_gallery">Favorites</string>
+    <string name="menu_slideshow">Promotions</string>
     <string name="menu_viajes">Mis Trips</string>
     //
     <string name="texto1">Password</string>
@@ -21,7 +21,7 @@
     <string name="texto7">Already have an account?</string>
     //
     <string name="texto8">What do you want to search for?</string>
-    <string name="texto9">Historical places</string>
+    <string name="texto9">Aguascalientes Events</string>
     <string name="texto10">Tourist places</string>
     <string name="texto11">San Marcos Garden</string>
     <string name="texto12">Bullring</string>
