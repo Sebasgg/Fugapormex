@@ -7,20 +7,28 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.Toast;
 
 public class Restaurantes extends AppCompatActivity {
     GridLayout mainRestaurantes ;
-
+    Button regresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_restaurantes );
+        regresar=(Button)findViewById(R.id.regresar);
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent( Restaurantes.this,DosActivity.class);
+                startActivity(o );
+            }
+        });
 
         mainRestaurantes = (GridLayout) findViewById(R.id.mainRestaurantes);
-
         //Set Event
         setSingleEvent(mainRestaurantes);
         //setToggleEvent(mainGrid);

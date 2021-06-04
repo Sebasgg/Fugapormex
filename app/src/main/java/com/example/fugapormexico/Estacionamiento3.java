@@ -50,8 +50,8 @@ public class Estacionamiento3 extends FragmentActivity implements OnMapReadyCall
 
         mMap = googleMap;
 //--------------------------------------------------------------
-        LatLng sydney = new LatLng(21.870371949735212, -102.30799042318363);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Estacionamiento Sur Feria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        LatLng sydney = new LatLng(21.874760482474695, -102.30270887134114);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Estacionamiento Las Flores").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 //------------------------------------------------------------
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {

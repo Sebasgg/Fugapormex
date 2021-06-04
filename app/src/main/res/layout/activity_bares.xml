@@ -10,9 +10,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cinco"
+        android:background="#D5FAFF"
         android:orientation="vertical"
         android:weightSum="10">
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC7F6"
+            android:textColor="#F8F2F2"
+            app:drawableLeftCompat="?attr/actionModeCloseDrawable">
+        </Button>
 
         <RelativeLayout
             android:layout_width="463dp"
@@ -29,7 +38,8 @@
                 android:layout_marginEnd="152dp"
                 android:text="      Bares "
                 android:textColor="@android:color/black"
-                android:textSize="34sp" />
+                android:textSize="38sp"
+                android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -39,7 +49,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="14dp"
                 android:layout_marginTop="-3dp"
-                app:srcCompat="@drawable/bebida" />
+                app:srcCompat="@drawable/logobares" />
 
 
         </RelativeLayout>
@@ -85,7 +95,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bar Sin Nombre"
+                        android:text="La Bola"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18dp"
@@ -122,7 +132,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="44dp"
-                        android:text="La Principal"
+                        android:text="Chapultepec"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18dp"
@@ -197,7 +207,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="La México"
+                        android:text="La Cantina"
                         android:textAlignment="center"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="18sp"

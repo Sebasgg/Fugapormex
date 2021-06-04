@@ -15,13 +15,22 @@ import com.google.zxing.integration.android.IntentResult;
 
 public class Bar6 extends AppCompatActivity {
 
-    private Button btnScanner;
+    private Button btnScanner, regresar;
     private TextView tvBarCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_barseis);
+
+        regresar=(Button)findViewById(R.id.regresar);
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent( Bar6.this,MainActivity.class);
+                startActivity(o );
+            }
+        });
 
         btnScanner = findViewById(R.id.btnScanner);
         tvBarCode = findViewById(R.id.tvBarCode);

@@ -50,8 +50,8 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
 
         mMap = googleMap;
 //--------------------------------------------------------------
-        LatLng sydney = new LatLng(21.880098178130826, -102.30039830594185); //direccion
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Bar La Principal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        LatLng sydney = new LatLng(21.877437248503995, -102.3026272815054); //direccion
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Bar Cerveceria Chapultepec").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 //------------------------------------------------------------
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {

@@ -5,15 +5,23 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
-
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cinco"
+        android:background="#D5FAFF"
         android:orientation="vertical"
         android:weightSum="10">
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC7F6"
+            android:textColor="#F8F2F2"
+            app:drawableLeftCompat="?attr/actionModeCloseDrawable">
+        </Button>
 
         <RelativeLayout
             android:layout_width="463dp"
@@ -28,9 +36,10 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="22dp"
                 android:layout_marginEnd="152dp"
-                android:text="Hoteles"
+                android:text="      Hoteles"
                 android:textColor="@android:color/black"
-                android:textSize="34sp" />
+                android:textSize="38sp"
+                android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -40,7 +49,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="14dp"
                 android:layout_marginTop="-3dp"
-                app:srcCompat="@drawable/hotel" />
+                app:srcCompat="@drawable/logohotel" />
 
 
         </RelativeLayout>

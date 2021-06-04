@@ -9,36 +9,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/blanco"
+        android:background="#8BC7F6"
         android:orientation="vertical"
         android:weightSum="10">
 
         <Button
             android:id="@+id/regresar"
-            android:layout_width="wrap_content"
-            android:backgroundTint="#3F51B5"
-            android:text="Regresar"
-            android:textColor="#040200"
-            android:layout_height="wrap_content">
-
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC7F6"
+            android:textColor="#F8F2F2"
+            app:drawableLeftCompat="?attr/actionModeCloseDrawable">
         </Button>
 
         <RelativeLayout
+            android:layout_gravity="center"
             android:layout_width="463dp"
             android:layout_height="0dp"
             android:layout_weight="2">
 
             <TextView
                 android:id="@+id/textGrid"
-                android:layout_width="310dp"
-                android:layout_height="wrap_content"
+                android:layout_width="311dp"
+                android:layout_height="47dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="22dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="152dp"
                 android:text="@string/texto10"
-                android:textColor="@android:color/black"
-                android:textSize="34sp" />
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <GridLayout
@@ -68,7 +69,7 @@
 
                 <LinearLayout
                     android:layout_width="160dp"
-                    android:layout_height="146dp"
+                    android:layout_height="158dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_margin="16dp"
                     android:orientation="vertical">
@@ -77,14 +78,20 @@
                         android:layout_width="140dp"
                         android:layout_height="112dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ags2" />
+                        android:src="@drawable/logorestau" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="15dp">
+
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/texto21"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="#000000"
                         android:textSize="16dp"
                         android:textStyle="bold" />
 
@@ -105,23 +112,29 @@
 
                 <LinearLayout
                     android:layout_width="160dp"
-                    android:layout_height="146dp"
+                    android:layout_height="158dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_margin="16dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="206dp"
-                        android:layout_height="111dp"
+                        android:layout_height="113dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ags2" />
+                        android:src="@drawable/logohotel" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="15dp">
+
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="44dp"
                         android:text="@string/texto22"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="@color/black"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -141,8 +154,8 @@
                 app:cardElevation="8dp">
 
                 <LinearLayout
-                    android:layout_width="189dp"
-                    android:layout_height="146dp"
+                    android:layout_width="160dp"
+                    android:layout_height="158dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_margin="16dp"
                     android:orientation="vertical">
@@ -151,14 +164,19 @@
                         android:layout_width="148dp"
                         android:layout_height="117dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ags2" />
+                        android:src="@drawable/logobares" />
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="15dp">
+
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/texto23"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -180,23 +198,28 @@
 
                 <LinearLayout
                     android:layout_width="160dp"
-                    android:layout_height="146dp"
+                    android:layout_height="158dp"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_margin="16dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="148dp"
-                        android:layout_height="112dp"
+                        android:layout_height="119dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ags2" />
+                        android:src="@drawable/logoestac" />
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="15dp">
+
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/texto24"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
