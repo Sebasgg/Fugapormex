@@ -14,7 +14,8 @@
       android:layout_height="wrap_content"
       android:backgroundTint="#8BC7F6"
       android:textColor="#F8F2F2"
-      app:drawableLeftCompat="?attr/actionModeCloseDrawable">
+      app:drawableLeftCompat="?attr/actionModeCloseDrawable"
+      tools:ignore="MissingConstraints">
   </Button>
 
 
@@ -115,7 +116,7 @@
       <TextView
           android:layout_width="126dp"
           android:layout_height="match_parent"
-          android:text="Telefono:"
+          android:text="@string/texto27"
           android:textSize="25dp"
           android:textStyle="bold" />
 
@@ -123,7 +124,7 @@
       <TextView
           android:layout_width="255dp"
           android:layout_height="match_parent"
-          android:text="4491568752"
+          android:text="4491234567"
           android:textSize="25dp" />
 
 
@@ -146,7 +147,7 @@
 
           android:layout_width="139dp"
           android:layout_height="match_parent"
-          android:text="Horario:"
+          android:text="@string/texto28"
           android:textSize="25dp"
           android:textStyle="bold" />
 
@@ -154,7 +155,7 @@
       <TextView
           android:layout_width="242dp"
           android:layout_height="match_parent"
-          android:text="2:00am / 8:00pm"
+          android:text="2:00pm / 10:00pm"
           android:textSize="25dp" />
 
 
@@ -177,7 +178,7 @@
 
           android:layout_width="139dp"
           android:layout_height="match_parent"
-          android:text="Dias :"
+          android:text="@string/texto29"
           android:textSize="25dp"
           android:textStyle="bold" />
 
@@ -185,7 +186,7 @@
       <TextView
           android:layout_width="242dp"
           android:layout_height="match_parent"
-          android:text="Martes/Domingo"
+          android:text="@string/texto30"
           android:textSize="25dp" />
 
 
@@ -208,10 +209,10 @@
       android:layout_height="46dp"
       android:layout_marginStart="56dp"
       android:layout_marginBottom="60dp"
-      android:text="Web"
+      android:text="@string/texto31"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      tools:ignore="InvalidId,MissingConstraints" />
+      tools:ignore="HardcodedText,InvalidId,MissingConstraints" />
 
   <Button
       android:id="@+id/btn_dial"
@@ -219,7 +220,7 @@
       android:layout_height="48dp"
       android:layout_marginStart="236dp"
       android:layout_marginBottom="60dp"
-      android:text="Llamar"
+      android:text="@string/texto32"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       tools:ignore="InvalidId,MissingConstraints" />

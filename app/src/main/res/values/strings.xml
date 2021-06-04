@@ -19,7 +19,7 @@
     <string name="texto6">Usuario</string>
     <string name="texto7">¿Ya tiene una cuenta?</string>
     //Inicio e Histósicos y turísticos
-    <string name="texto8">Descubra más de Aguascalientes</string>
+    <string name="texto8">Descubre más de Aguascalientes</string>
     <string name="texto9">Eventos Aguascalientes</string>
     <string name="texto10">Lugares Turísticos</string>
     <string name="texto11">Jardín de San Marcos</string>
@@ -38,11 +38,19 @@
     <string name="texto24">Estacionamientos</string>
     <string name="texto25">Cerrar Sesión</string>
     <string name="texto26">Eliminar Cuenta</string>
-    <string name="title_activity_mapa1">Map</string>
-    <string name="title_activity_maps2">Map</string>
-    <string name="title_activity_maps3">Map</string>
-    <string name="title_activity_maps4">Map</string>
-    <string name="title_activity_maps5">Map</string>
     //
+    <string name="texto27">Teléfono:</string>
+    <string name="texto28">Horario:</string>
+    <string name="texto29">Atención:</string>
+    <string name="texto30">Martes/Domingo</string>
+    <string name="texto31">Web</string>
+    <string name="texto32">Llamar</string>
+    <string name="texto33">Todos los días</string>
+    <string name="texto34">Nombre:</string>
+    <string name="texto35">Ir</string>
+    <string name="texto36">Promociones</string>
+    <string name="texto37">Scanea tus códigos</string>
+    <string name="texto38">Escanear</string>
+
 
 </resources>

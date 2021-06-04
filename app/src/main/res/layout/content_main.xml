@@ -78,7 +78,7 @@
                         android:layout_width="242dp"
                         android:layout_height="174dp"
                         android:layout_gravity=""
-                        android:src="@drawable/muerto" />
+                        android:src="@drawable/fsiete" />
 
                     <TextView
                         android:layout_width="match_parent"

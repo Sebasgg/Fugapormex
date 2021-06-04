@@ -116,7 +116,7 @@
             <TextView
                 android:layout_width="126dp"
                 android:layout_height="match_parent"
-                android:text="Telefono:"
+                android:text="@string/texto27"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
@@ -147,7 +147,7 @@
 
                 android:layout_width="139dp"
                 android:layout_height="match_parent"
-                android:text="Horario:"
+                android:text="@string/texto28"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
@@ -178,7 +178,7 @@
 
                 android:layout_width="139dp"
                 android:layout_height="match_parent"
-                android:text="Dias :"
+                android:text="@string/texto29"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
@@ -186,7 +186,7 @@
             <TextView
                 android:layout_width="242dp"
                 android:layout_height="match_parent"
-                android:text="Lunes/Domingo"
+                android:text="@string/texto33"
                 android:textSize="25dp" />
 
 
@@ -208,7 +208,7 @@
         android:layout_height="46dp"
         android:layout_marginStart="56dp"
         android:layout_marginBottom="60dp"
-        android:text="Web"
+        android:text="@string/texto31"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />
@@ -219,7 +219,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="236dp"
         android:layout_marginBottom="60dp"
-        android:text="Llamar"
+        android:text="@string/texto32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />

@@ -55,7 +55,7 @@
                 android:id="@+id/editText5"
                 android:layout_width="106dp"
                 android:layout_height="match_parent"
-                android:text="Nombre:"
+                android:text="@string/texto34"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:textColor="@color/black"/>
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="126dp"
                 android:layout_height="match_parent"
-                android:text="Telefono:"
+                android:text="@string/texto27"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:textColor="@color/black"/>
@@ -119,7 +119,7 @@
 
                 android:layout_width="139dp"
                 android:layout_height="match_parent"
-                android:text="Horario:"
+                android:text="@string/texto29"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:textColor="@color/black"/>
@@ -127,7 +127,7 @@
             <TextView
                 android:layout_width="242dp"
                 android:layout_height="match_parent"
-                android:text="Martes/Domingo"
+                android:text="@string/texto30"
                 android:textSize="25dp"
                 android:textColor="@color/black"/>
 
@@ -163,7 +163,7 @@
         android:layout_height="46dp"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="112dp"
-        android:text="Ir"
+        android:text="@string/texto35"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />
@@ -175,7 +175,7 @@
         android:layout_marginStart="120dp"
         android:layout_marginBottom="108dp"
         android:textSize="13dp"
-        android:text="Promociones "
+        android:text="@string/texto36"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />
@@ -187,7 +187,7 @@
         android:layout_marginStart="300dp"
         android:layout_marginBottom="112dp"
         android:textSize="10dp"
-        android:text="Llamar"
+        android:text="@string/texto32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="InvalidId,MissingConstraints" />

@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
-
     >
 
     <LinearLayout
@@ -37,7 +36,7 @@
                 android:textSize="34sp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="152dp"
-                android:text="Estacionamientos"
+                android:text="@string/texto24"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 

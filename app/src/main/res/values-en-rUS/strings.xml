@@ -39,5 +39,18 @@
     <string name="texto24">Parking lot</string>
     <string name="texto25">Sign off</string>
     <string name="texto26">Delete account</string>
+    //
+    <string name="texto27">Telephone:</string>
+    <string name="texto28">Horary:</string>
+    <string name="texto29">Attention:</string>
+    <string name="texto30">Tuesday/Sunday</string>
+    <string name="texto31">Web</string>
+    <string name="texto32">Call</string>
+    <string name="texto33">All the days</string>
+    <string name="texto34">Name:</string>
+    <string name="texto35">Go</string>
+    <string name="texto36">Promotions</string>
+    <string name="texto37">Scan your codes</string>
+    <string name="texto38">Scan</string>
 
 </resources>
