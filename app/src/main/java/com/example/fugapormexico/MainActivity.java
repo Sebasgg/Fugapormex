@@ -45,12 +45,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.promociones,R.id.fotos)
+                R.id.nav_home, R.id.nav_gallery, R.id.promociones,R.id.fotos,R.id.historiaAguas)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -69,6 +70,10 @@ public class MainActivity extends AppCompatActivity {
         {
             case R.id.usuarios:
                 Intent intent = new Intent(MainActivity.this,Usuario.class);
+                startActivity( intent );
+                break;
+            case R.id.ActionSettings:
+                intent = new Intent(MainActivity.this,ActionSettings.class);
                 startActivity( intent );
                 break;
         }

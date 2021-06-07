@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bar3">
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="147dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#8BC7F6"
+        android:textColor="#F8F2F2"
+        app:drawableLeftCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        app:srcCompat="@drawable/barr3"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="252dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="632dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="440dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto34"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="427dp"
+                android:layout_height="match_parent"
+                android:text="Merendero San Pancho"
+                android:textSize="36dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto27"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="420dp"
+                android:layout_height="match_parent"
+                android:text="4491568752"
+                android:textSize="36dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#E9F9FB"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto28"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="420dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto33"
+                android:textSize="36dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="163dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/texto32"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <Button
+        android:id="@+id/promociones"
+        android:layout_width="263dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/texto36"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <Button
+        android:id="@+id/Mapa"
+        android:layout_width="130dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/texto35"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textGrid"
+        android:layout_width="629dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="33dp"
+        android:text="Merendero San Pancho"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

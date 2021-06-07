@@ -30,16 +30,16 @@
 
             <TextView
                 android:id="@+id/textGrid"
-                android:layout_width="310dp"
+                android:layout_width="289dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="22dp"
                 android:layout_marginEnd="152dp"
-                android:text="      Hoteles"
+                android:text="@string/texto22"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView2"

@@ -30,13 +30,14 @@
 
             <TextView
                 android:id="@+id/textGrid"
-                android:layout_width="311dp"
-                android:layout_height="47dp"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="152dp"
                 android:text="@string/texto10"
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />

@@ -45,16 +45,16 @@
 
         <activity
             android:name=".MapsActivity5"
-            android:label="@string/title_activity_maps5" />
+            android:label="Map" />
         <activity
             android:name=".MapsActivity4"
-            android:label="@string/title_activity_maps4" />
+            android:label="Map" />
         <activity
             android:name=".MapsActivity3"
-            android:label="@string/title_activity_maps3" />
+            android:label="Map" />
         <activity
             android:name=".MapsActivity2"
-            android:label="@string/title_activity_maps2" />
+            android:label="Map" />
         <activity android:name=".Usuario" />
         <activity android:name=".Registro" />
         <activity android:name=".Inicio" />
@@ -88,7 +88,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.FUGAPORMEXICO.NoActionBar" />
+            android:theme="@style/Theme.FUGAPORMEXICO.NoActionBar"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

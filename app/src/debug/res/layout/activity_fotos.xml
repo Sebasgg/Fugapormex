@@ -22,7 +22,8 @@
                 android:layout_height="244dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fcinco" />
+                app:srcCompat="@drawable/fcinco"
+                android:layout_gravity="center"/>
 
             <ImageView
 
@@ -30,46 +31,49 @@
                 android:layout_height="224dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/funo" />
+                app:srcCompat="@drawable/funo"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_marginTop="20dp"
                 android:layout_width="432dp"
                 android:layout_height="267dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fdos" />
+                app:srcCompat="@drawable/fdos"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="233dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ftres" />
+                app:srcCompat="@drawable/ftres"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_marginTop="20dp"
-                android:layout_width="456dp"
+                android:layout_width="match_parent"
                 android:layout_height="235dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fcuatro" />
-
-
+                app:srcCompat="@drawable/fcuatro"
+                android:layout_gravity="center"/>
 
 
             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="366dp"
                 android:layout_marginTop="20dp"
-                android:layout_width="400dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fsesis" />
+                app:srcCompat="@drawable/fsesis"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="259dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fsiete" />
-
+                app:srcCompat="@drawable/fsiete"
+                android:layout_gravity="center"/>
 
 
             <ImageView
@@ -78,8 +82,8 @@
                 android:layout_width="427dp"
                 android:layout_height="291dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/focho" />
-
+                app:srcCompat="@drawable/focho"
+                android:layout_gravity="center"/>
 
 
         </LinearLayout>

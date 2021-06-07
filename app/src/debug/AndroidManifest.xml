@@ -8,7 +8,9 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application>
-        <activity android:name="com.example.fugapormexico.PaginaRes6"></activity>
+        <activity android:name="com.example.fugapormexico.ActionSettings"></activity>
+        <activity android:name="com.example.fugapormexico.HistoriaAguas" />
+        <activity android:name="com.example.fugapormexico.PaginaRes6" />
         <activity android:name="com.example.fugapormexico.PaginaRes5" />
         <activity android:name="com.example.fugapormexico.PaginaRes4" />
         <activity android:name="com.example.fugapormexico.PaginaRes3" />

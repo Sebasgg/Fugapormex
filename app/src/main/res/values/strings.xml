@@ -5,11 +5,12 @@
     <string name="nav_header_title">Usuario</string>
     <string name="nav_header_subtitle">sebas.rg07@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Opciones</string>
+    <string name="action_settings">Ayuda</string>
     <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Favoritos</string>
-    <string name="menu_slideshow">Promociones</string>
-    <string name="menu_viajes">Mis Viajes</string>
+    <string name="menu_slideshow">Descuentos del día</string>
+    <string name="menu_viajes">Historia</string>
+    <string name="menu_fotos">Fotos</string>
     //login y registro
     <string name="texto1">Contraseña</string>
     <string name="texto2">Correo</string>
@@ -19,9 +20,9 @@
     <string name="texto6">Usuario</string>
     <string name="texto7">¿Ya tiene una cuenta?</string>
     //Inicio e Histósicos y turísticos
-    <string name="texto8">Descubre más de Aguascalientes</string>
+    <string name="texto8">Explora Aguascalientes</string>
     <string name="texto9">Eventos Aguascalientes</string>
-    <string name="texto10">Lugares Turísticos</string>
+    <string name="texto10">Descubre Aguascalientes</string>
     <string name="texto11">Jardín de San Marcos</string>
     <string name="texto12">Plaza de Toros</string>
     <string name="texto13">Feria de San Marcos</string>
@@ -51,6 +52,24 @@
     <string name="texto36">Promociones</string>
     <string name="texto37">Scanea tus códigos</string>
     <string name="texto38">Escanear</string>
+    //
+    <string name="texto40">La primera feria de Aguascalientes se llevó a cabo en 1828. En sus inicios se realizaba en el mes de noviembre, dando origen al Parián ubicado frente al Templo de San Diego, el cual tenía fines exclusivamente comerciales Para mediados del siglo XIX, la feria se cambió al mes de abril, dentro de las celebraciones de San Marcos, antiguo pueblo de indios situado a unas cuadras de la plaza mayor de la capital
+Con la llegada del ferrocarril en 1884, la ciudad fortaleció su antigua vocación de comerciantes y, con ello, su primacía regional, por lo que la feria pudo promoverse y conocerse más allá de los límites de una pequeña fiesta de pueblo. Dentro del imaginario popular, la coronación de la Reina (tradición que comenzó en la década de 1920) representa no sólo un concurso de belleza sino la añoranza de una sociedad, en donde el gobernador corona a la elegida, el poeta improvisa el elogio y el pueblo admira la majestuosidad del acto.</string>
+    <string name="texto41">El Cerro del Muerto es un macizo montañoso, que se encuentra en los municipios de Aguascalientes y Jesús María, en el Estado de Aguascalientes en México.​ Presenta un bosque de encino en las partes altas y en algunas laderas y cañadas.</string>
+    <string name="texto42">Calvillo Pueblo Mágico</string>
+    <string name="texto43">Recibe su nombramiento como Pueblo Mágico en noviembre de 2012. Ubicado en el estado de Aguascalientes, lleva el nombre de Calvillo, en honor a su benefactor. Su origen se da con el establecimiento de una congregación de indios nahuas de San José de Huejúcar, que significa “lugar de sauces”.</string>
+    <string name="texto44">Templo de San Antonio de Padua</string>
+    <string name="texto45">El templo de San Antonio es un monumento y obra maestra religiosa, localizado en el centro histórico de la Ciudad de Aguascalientes, en el estado del mismo nombre, diseñado y construido por el arquitecto práctico autodidacta Refugio Reyes Rivas. Su construcción se inicia en 1895 y la obra se concluye en 1908.​</string>
+    //ayuda
+    <string name="texto46">Cualquier duda o comentario pueden enviarlo a nuestro correo fugapormexico@gmail.com
+Mediante este correo podras obtener informacion o resolver alguna duda que tengas acerca de la aplicación, y asi poder brindarte la información necesaria.
+</string>
+    <string name="texto47">Organización: Fuga Por México
+Contacto adicionales:
+Sebastian Gallegos Gallegos 17150056@aguascalientes.tecnm.mx
+Fernanda Paulina razo rodriguez17150408@aguascalientes.tecnm.mx</string>
+    <string name="texto48">Un cordial saludo a todos nuestros usuarios, esperemos esten disfrutando de nuestra app y les este
+ayudando a encontrar lo que ustedes buscaban en nuestro bello Estado Aguascalientes.</string>
 
 
 </resources>

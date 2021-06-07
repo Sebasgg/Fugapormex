@@ -21,12 +21,12 @@
      <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cinco"
+        android:background="@drawable/fondo_gris"
         android:orientation="vertical"
         android:weightSum="10">
 
         <RelativeLayout
-            android:layout_width="463dp"
+            android:layout_width="400dp"
             android:layout_height="0dp"
             android:layout_weight="2">
 
@@ -39,11 +39,12 @@
                 android:layout_marginTop="22dp"
                 android:layout_marginEnd="15dp"
                 android:text="@string/texto8"
-                android:textColor="@android:color/black"
-                android:textSize="23sp" />
+                android:textColor="#8BC7F6"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
         </RelativeLayout>
-
-
+         
         <GridLayout
             android:id="@+id/mainGriddd"
             android:layout_width="match_parent"
@@ -85,7 +86,7 @@
                         android:layout_height="74dp"
                         android:text="@string/texto9"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="#0E7FD8"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
@@ -122,7 +123,7 @@
                         android:layout_height="50dp"
                         android:text="@string/texto10"
                         android:textAlignment="center"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="#0E7FD8"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 

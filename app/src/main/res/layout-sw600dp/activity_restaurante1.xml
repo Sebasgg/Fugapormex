@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blancoo"
+    tools:context=".Restaurante1">
+
+  <Button
+      android:id="@+id/regresar"
+      android:layout_width="147dp"
+      android:layout_height="84dp"
+      android:backgroundTint="#8BC7F6"
+      android:textColor="#F8F2F2"
+      app:drawableLeftCompat="?attr/actionModeCloseDrawable"
+      tools:ignore="MissingConstraints">
+
+  </Button>
+
+
+  <HorizontalScrollView
+      android:layout_width="392dp"
+      android:layout_height="242dp"
+      android:layout_marginTop="36dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+      app:layout_constraintTop_toBottomOf="@+id/textGrid"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="13dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <ImageView
+
+          android:layout_width="421dp"
+          android:layout_height="244dp"
+          android:layout_marginTop="20dp"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/lugar1" />
+
+      <ImageView
+
+          android:layout_width="421dp"
+          android:layout_height="244dp"
+          android:layout_marginTop="20dp"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/comida1" />
+
+      <ImageView
+
+          android:layout_width="421dp"
+          android:layout_height="244dp"
+          android:layout_marginTop="20dp"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/platillos1" />
+
+      <ImageView
+
+          android:layout_width="421dp"
+          android:layout_height="244dp"
+          android:layout_marginTop="20dp"
+          android:layout_weight="1"
+          app:srcCompat="@drawable/cafe1" />
+    </LinearLayout>
+  </HorizontalScrollView>
+
+
+  <TextView
+      android:id="@+id/textGrid"
+      android:layout_width="661dp"
+      android:layout_height="78dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="72dp"
+      android:layout_marginBottom="33dp"
+      android:text="      Terrazza Italiana"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textSize="60dp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toTopOf="@+id/imageView8"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.502"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints" />
+
+  <Button
+      android:id="@+id/btn_dial"
+      android:layout_width="245dp"
+      android:layout_height="71dp"
+      android:layout_marginStart="468dp"
+      android:layout_marginBottom="408dp"
+      android:text="@string/texto32"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:ignore="InvalidId,MissingConstraints"
+      android:textSize="25dp"/>
+
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="540dp"
+      android:layout_height="291dp"
+      android:layout_marginBottom="524dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="180dp">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="15dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#1B096C78"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="182dp"
+          android:layout_height="match_parent"
+          android:text="@string/texto27"
+          android:textSize="40dp"
+          android:textStyle="bold" />
+
+
+      <TextView
+          android:layout_width="255dp"
+          android:layout_height="match_parent"
+          android:text=" 4491234567"
+          android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+
+        android:layout_height="15dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#1B096C78"
+        android:orientation="horizontal">
+
+      <TextView
+
+          android:layout_width="171dp"
+          android:layout_height="match_parent"
+          android:text="@string/texto28"
+          android:textSize="40dp"
+          android:textStyle="bold" />
+
+
+      <TextView
+          android:layout_width="348dp"
+          android:layout_height="match_parent"
+          android:text="2:00pm / 10:00pm"
+          android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+
+        android:layout_height="15dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#1B096C78"
+        android:orientation="horizontal">
+
+      <TextView
+
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="@string/texto29"
+          android:textSize="40dp"
+          android:textStyle="bold" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="@string/texto30"
+          android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="15dp">
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/Web1"
+      android:layout_width="178dp"
+      android:layout_height="71dp"
+      android:layout_marginStart="196dp"
+      android:layout_marginBottom="408dp"
+      android:text="@string/texto31"
+      android:textSize="25dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:ignore="HardcodedText,InvalidId,MissingConstraints" />
+
+  <EditText
+      android:visibility="invisible"
+      android:id="@+id/et_phone_no"
+      android:hint="Numero"
+      android:inputType="phone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blancoo"
+    tools:context=".Restaurante6">
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC7F6"
+        android:textColor="#F8F2F2"
+        app:drawableLeftCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+    <HorizontalScrollView
+        android:layout_width="300dp"
+        android:layout_height="211dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restlogo6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restlugar6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restcomida6" />
+
+            <ImageView
+
+                android:layout_width="421dp"
+                android:layout_height="244dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restdesay6" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textGrid"
+        android:layout_width="364dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="      Las Gaoneras"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="400dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="116dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto27"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="255dp"
+                android:layout_height="match_parent"
+                android:text="4499166135"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto28"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:text="2:00pm / 11:00pm"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:background="#1B096C78"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto29"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:text="@string/texto33"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+
+            android:layout_height="15dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Web1"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/texto31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/texto32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
